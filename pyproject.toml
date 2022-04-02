@@ -6,9 +6,12 @@ build-backend = "flit_core.buildapi"
 name = "baza"
 authors = [{name = "Arkadiusz Halicki", email = "halicki.arkadiusz@gmail.com"}]
 dynamic = ["version", "description"]
+dependencies = [
+    "typer >=0.4.1,<0.5",
+]
 
 [project.urls]
 Home = "https://github.com/halicki/baza"
 
 [project.scripts]
-baza = "baza.cli:main"
+baza = "baza.cli:cli"
