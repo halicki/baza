@@ -10,8 +10,8 @@ dependencies = [
     "typer >=0.4.1,<0.5",
 ]
 
-[project.urls]
-Home = "https://github.com/halicki/baza"
-
 [project.scripts]
 baza = "baza.cli:cli"
+
+[project.urls]
+Home = "https://github.com/halicki/baza"
