@@ -1,7 +1,11 @@
+import subprocess
+
 import typer
 
-def main(name: str):
-    typer.echo(f"Hello {name}")
+
+def main():
+    process = subprocess.run(["mongo"])
+    print(f"Mongo exited ({process.returncode})")
 
 
 def cli():
