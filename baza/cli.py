@@ -6,6 +6,7 @@ import typer
 
 DEFAULT_CONFIG_FILES_NAMES = [
     ".bazarc",
+    "~/.bazarc",
 ]
 
 
