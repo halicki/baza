@@ -23,7 +23,7 @@ def main(selector: str):
         typer.echo(f"{selector} has no connection string")
         return
 
-    process = subprocess.run(["mongosh", connection_string])
+    subprocess.run(["mongosh", connection_string])
 
 
 def cli():
